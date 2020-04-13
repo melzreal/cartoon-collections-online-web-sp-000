@@ -5,8 +5,7 @@ def roll_call_dwarves(arr)# code an argument here
 end
 
 def summon_captain_planet(args)# code an argument here
-  args.map do |arg|
-    puts `#{arg.capitalize}!`
+    args.map{ |arg|  puts `#{arg.capitalize}!` }
   end
 end
 

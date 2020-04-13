@@ -5,7 +5,7 @@ def roll_call_dwarves(arr)# code an argument here
 end
 
 def summon_captain_planet(args)# code an argument here
-    args.map! { |arg| arg.capitalize + ! }
+    args.map! { |arg| arg.capitalize + '!' }
 end
 
 def long_planeteer_calls# code an argument here

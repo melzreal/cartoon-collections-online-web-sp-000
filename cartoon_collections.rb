@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(args)# code an argument here
   args.map do |arg|
-    puts `#{arg}!`
+    puts `#{arg.capitalize}!`
   end
 end
 

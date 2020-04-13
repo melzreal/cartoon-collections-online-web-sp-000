@@ -6,7 +6,6 @@ end
 
 def summon_captain_planet(args)# code an argument here
     args.map{ |arg|  puts `#{arg.capitalize}!` }
-  end
 end
 
 def long_planeteer_calls# code an argument here

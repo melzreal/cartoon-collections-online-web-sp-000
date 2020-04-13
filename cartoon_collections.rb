@@ -15,5 +15,5 @@ end
 def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   intersect =  arr & cheese_types
-  puts intersect
+  print intersect
 end

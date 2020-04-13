@@ -14,11 +14,11 @@ end
 
 def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  intersect = arr & cheese_types
-  if intersect
-     intersect.join('')
-  else
+  intersect = (arr & cheese_types).join('')
+  if intersect == ''
     nil
+  else
+    intersect
   end 
 
 end

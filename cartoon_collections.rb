@@ -14,10 +14,7 @@ end
 
 def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  found = []
-    arr.each do |cheese|
-      cheese.include? "cheese_types"
-      found << cheese
-    end
-  puts found
+
+    arr & cheese_types
+
 end
